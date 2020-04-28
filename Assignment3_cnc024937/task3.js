@@ -60,7 +60,7 @@ for (b = 0; b < colors.length; b++) {
     document.write(colors[b] + "<br>");
 }
 
-// Task 3-D
+// Task 3-4
 
 colors.shift();
 
@@ -74,7 +74,7 @@ for (b = 0; b < colors.length; b++) {
     document.write(colors[b] + "<br>");
 }
 
-// Task 3-E
+// Task 3-5
 
 colors.pop();
 
@@ -90,7 +90,7 @@ for (b = 0; b < colors.length; b++) {
 
 
 
-// Task 3-F
+// Task 3-6
 
 var usrColorAdd = parseInt(prompt(`Where you want to add color
 ${colors}`) - 1);
@@ -113,7 +113,10 @@ for (b = 0; b < colors.length; b++) {
     document.write(colors[b] + "<br>");
 }
 
-// Task 3-G Start from here
+
+
+
+// Task 3-7 Start from here
 
 
 var userDelPosition = parseInt(prompt(`Enter color(s) position for delete
