@@ -4,24 +4,23 @@ var a = [10, 20, 4, 40, 60, 70];
 var b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var output = [];
 finalArr = [];
-output = [];
 
 
 
-for (j = 0; j < a.length; j++) {
-    finalArr.push(a[j]);
-}
 
-for (j = 0; j < b.length; j++) {
+finalArr = a;   
+
+for (j = 0; j < b.length; j++) {                //Merged arrays             
     finalArr.push(b[j]);
-}
+}                                                    
 
 
-var sample = Math.max(...finalArr);
 
-document.write(sample + "<br />");
+var sample = Math.max(...finalArr);             // largest value
 
-for (k = 0; k <= sample; k++) {
+
+
+for (k = 0; k <= sample; k++) {                 //Serial / sorting
 
     for (l = 0; l < finalArr.length; l++) {
 
@@ -32,7 +31,11 @@ for (k = 0; k <= sample; k++) {
 }
 
 
-for (i = 0; i < output.length; i++) {
+// document.write("<br> Output is " + output);
+
+
+
+for (i = 0; i < output.length; i++) {                       
     d = output[i]; /* 10 */
 
     for (j = 0; j < output.length; j++) {
@@ -47,9 +50,9 @@ for (i = 0; i < output.length; i++) {
 
 
 
+// document.write("<br> finalArr is " + finalArr);
 
-document.write("<br> finalArr is " + finalArr);
-document.write("<br> output is " + output);
-console.log(finalArr);
-console.log(output);
+document.write("<br><br> Output is " + output);
+
+
 
