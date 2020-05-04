@@ -18,7 +18,7 @@ for (i = 0; i < A.length; i++) {
 
         document.write(userInput + " is <b> available </b> at index " + 
         i + 
-        " in our bakery <br>");
+        " in our bakery :) <br>");
 
         B = userInput;
     }
@@ -28,7 +28,7 @@ if (B === undefined) {
 
     document.write("<br>We are sorry. " + 
     userInput + 
-    " is <b>Not available</b> in our bakery <br>");
+    " is <b>Not available</b> in our bakery :(<br>");
 }
 
 
