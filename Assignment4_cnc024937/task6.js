@@ -1,5 +1,7 @@
 
 
+
+
 var dice = Math.random();
 console.log(dice);
 
